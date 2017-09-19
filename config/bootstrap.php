@@ -216,4 +216,5 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
+Configure::write('Users.Social.login', true); //to enable social login
 Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
