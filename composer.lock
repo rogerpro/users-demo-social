@@ -54,16 +54,16 @@
         },
         {
             "name": "cakedc/auth",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/auth.git",
-                "reference": "49b1f97fbf6fc65756956e632d1c7c3cc2a38fc9"
+                "reference": "9758ab39215dad9d366e15936e15ce72fa2a1491"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/auth/zipball/49b1f97fbf6fc65756956e632d1c7c3cc2a38fc9",
-                "reference": "49b1f97fbf6fc65756956e632d1c7c3cc2a38fc9",
+                "url": "https://api.github.com/repos/CakeDC/auth/zipball/9758ab39215dad9d366e15936e15ce72fa2a1491",
+                "reference": "9758ab39215dad9d366e15936e15ce72fa2a1491",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                 "cakedc",
                 "cakephp"
             ],
-            "time": "2017-09-08T13:02:38+00:00"
+            "time": "2017-09-24T02:27:33+00:00"
         },
         {
             "name": "cakedc/users",
@@ -109,12 +109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/users.git",
-                "reference": "808a3753282eb37ab1e9af43f93b0d42616d3fd5"
+                "reference": "a7a1fb70cb5f21d81276f52e5c43d06e06684e85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/users/zipball/808a3753282eb37ab1e9af43f93b0d42616d3fd5",
-                "reference": "808a3753282eb37ab1e9af43f93b0d42616d3fd5",
+                "url": "https://api.github.com/repos/CakeDC/users/zipball/a7a1fb70cb5f21d81276f52e5c43d06e06684e85",
+                "reference": "a7a1fb70cb5f21d81276f52e5c43d06e06684e85",
                 "shasum": ""
             },
             "require": {
@@ -171,7 +171,7 @@
                 "cakephp",
                 "oauth2"
             ],
-            "time": "2017-09-16T20:21:46+00:00"
+            "time": "2017-09-22T14:12:58+00:00"
         },
         {
             "name": "cakephp/cakephp",
@@ -2657,16 +2657,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.0.2",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "c7594a88ae75401e8f8d0bd4deb8431b39045c51"
+                "reference": "3c2d0a0fe39684ba0c1eb842a6a775d0b938d699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/c7594a88ae75401e8f8d0bd4deb8431b39045c51",
-                "reference": "c7594a88ae75401e8f8d0bd4deb8431b39045c51",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/3c2d0a0fe39684ba0c1eb842a6a775d0b938d699",
+                "reference": "3c2d0a0fe39684ba0c1eb842a6a775d0b938d699",
                 "shasum": ""
             },
             "require": {
@@ -2676,7 +2676,7 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0"
             },
             "bin": [
                 "bin/phpcs",
@@ -2704,7 +2704,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-07-18T01:12:32+00:00"
+            "time": "2017-09-19T22:47:14+00:00"
         },
         {
             "name": "symfony/finder",
