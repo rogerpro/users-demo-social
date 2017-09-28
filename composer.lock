@@ -175,16 +175,16 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "6829ddd2bcc48fc29dc98dccd23b8f746ec4ebec"
+                "reference": "cdf66608ef1f64e26509c41e92cc9bdb558c81fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/6829ddd2bcc48fc29dc98dccd23b8f746ec4ebec",
-                "reference": "6829ddd2bcc48fc29dc98dccd23b8f746ec4ebec",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/cdf66608ef1f64e26509c41e92cc9bdb558c81fd",
+                "reference": "cdf66608ef1f64e26509c41e92cc9bdb558c81fd",
                 "shasum": ""
             },
             "require": {
@@ -257,7 +257,7 @@
                 "rapid-development",
                 "validation"
             ],
-            "time": "2017-09-12T01:49:28+00:00"
+            "time": "2017-09-27T01:53:08+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -1130,16 +1130,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.10",
+            "version": "v2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
+                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/634bae8e911eefa89c1abfbf1b66da679ac8f54d",
-                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5da4d3c796c275c55f057af5a643ae297d96b4d8",
+                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
                 "shasum": ""
             },
             "require": {
@@ -1174,7 +1174,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13T16:27:32+00:00"
+            "time": "2017-09-27T21:40:39+00:00"
         },
         {
             "name": "psr/http-message",
