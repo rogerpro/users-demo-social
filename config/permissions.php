@@ -1,4 +1,8 @@
 <?php
+
+use Cake\ORM\TableRegistry;
+use CakeDC\Auth\Rbac\Rules\Owner;
+
 /**
  * Copyright 2010 - 2017, Cake Development Corporation (https://www.cakedc.com)
  *
@@ -73,6 +77,14 @@ return [
             'controller' => 'Users',
             'action' => ['profile', 'logout'],
         ],
+        //allow the owner to edit & delete
+        [
+            'role' => 'user',
+            'controller' => 'Articles',
+            'action' => ['edit', 'delete'],
+            'allowed' => new Owner(),
+        ],
+        //
         [
             'role' => '*',
             'plugin' => 'CakeDC/Users',
