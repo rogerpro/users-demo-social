@@ -51,6 +51,12 @@
 
 return [
     'Users.SimpleRbac.permissions' => [
+        //user role allowed to view articles
+        [
+            'role' => 'user',
+            'controller' => 'Articles',
+            'action' => ['view'],
+        ],
         //admin role allowed to all the things
         [
             'role' => 'admin',
