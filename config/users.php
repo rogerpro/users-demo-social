@@ -64,7 +64,7 @@ $config = [
         ],
         'GoogleAuthenticator' => [
             // enable Google Authenticator
-            'login' => false,
+            'login' => true,
             'issuer' => null,
             // The number of digits the resulting codes will be
             'digits' => 6,
