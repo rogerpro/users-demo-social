@@ -102,7 +102,6 @@ return [
         //all roles allowed to Pages/display
         [
             'role' => '*',
-            //'plugin' => null,
             'controller' => 'Pages',
             'action' => 'display',
         ],
