@@ -21,7 +21,7 @@ $activationUrl = [
 
 <?= __d(
     'CakeDC/Users',
-    "Please copy the following address in your web browser {0}",
+    "You can set a new password after accessing {0}",
     $this->Url->build($activationUrl)
 ) ?>
 
