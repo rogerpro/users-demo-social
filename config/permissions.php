@@ -55,12 +55,14 @@ use CakeDC\Auth\Rbac\Rules\Owner;
 
 return [
     'Users.SimpleRbac.permissions' => [
+        
         //user role allowed to view articles
         [
             'role' => 'user',
             'controller' => 'Articles',
             'action' => ['view'],
         ],
+        
         //admin role allowed to all the things
         [
             'role' => 'admin',
@@ -70,6 +72,7 @@ return [
             'controller' => '*',
             'action' => '*',
         ],
+        
         //specific actions allowed for the all roles in Users plugin
         [
             'role' => '*',
@@ -77,6 +80,7 @@ return [
             'controller' => 'Users',
             'action' => ['profile', 'logout'],
         ],
+        
         //allow the owner to edit & delete
         [
             'role' => 'user',
@@ -84,6 +88,7 @@ return [
             'action' => ['edit', 'delete'],
             'allowed' => new Owner(),
         ],
+        
         //
         [
             'role' => '*',
@@ -99,11 +104,13 @@ return [
                 return false;
             }
         ],
+        
         //all roles allowed to Pages/display
         [
             'role' => '*',
             'controller' => 'Pages',
             'action' => 'display',
         ],
+        
     ]
 ];
