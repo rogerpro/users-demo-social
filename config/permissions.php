@@ -89,7 +89,7 @@ return [
             'allowed' => new Owner(),
         ],
         
-        //
+        //allow reset Google Authenticator token
         [
             'role' => '*',
             'plugin' => 'CakeDC/Users',
