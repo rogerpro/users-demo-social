@@ -56,7 +56,7 @@ use CakeDC\Auth\Rbac\Rules\Owner;
 return [
     'Users.SimpleRbac.permissions' => [
         
-        //admin role allowed to all the things
+        // admin role allowed to all the things
         [
             'role' => 'admin',
             'prefix' => '*',
@@ -66,7 +66,7 @@ return [
             'action' => '*',
         ],
         
-        //specific actions allowed for the all roles in Users plugin
+        // allow users accessing profile and logout
         [
             'role' => '*',
             'plugin' => 'CakeDC/Users',
@@ -74,14 +74,14 @@ return [
             'action' => ['profile', 'logout'],
         ],
         
-        //user role allowed to view articles
+        // user role allowed to view articles
         [
             'role' => 'user',
             'controller' => 'Articles',
             'action' => ['view'],
         ],
         
-        //allow the owner to edit & delete
+        // allow the owner to edit & delete
         [
             'role' => 'user',
             'controller' => 'Articles',
@@ -89,7 +89,7 @@ return [
             'allowed' => new Owner(),
         ],
         
-        //allow reset Google Authenticator token
+        // allow reset Google Authenticator token
         [
             'role' => '*',
             'plugin' => 'CakeDC/Users',
@@ -105,7 +105,7 @@ return [
             }
         ],
         
-        //all roles allowed to Pages/display
+        // all roles allowed to Pages/display
         [
             'role' => '*',
             'controller' => 'Pages',
