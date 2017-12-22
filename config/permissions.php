@@ -78,7 +78,7 @@ return [
         [
             'role' => 'user',
             'controller' => 'Articles',
-            'action' => ['view'],
+            'action' => ['index', 'view'],
         ],
         
         // allow the owner to edit & delete
