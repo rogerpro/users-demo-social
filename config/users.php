@@ -48,9 +48,9 @@ $config = [
             // reCaptcha secret
             'secret' => null,
             // use reCaptcha in registration
-            'registration' => false,
+            'registration' => true,
             // use reCaptcha in login, valid values are false, true
-            'login' => false,
+            'login' => true,
         ],
         'Tos' => [
             // determines if the user should include tos accepted
