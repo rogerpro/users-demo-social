@@ -44,9 +44,9 @@ $config = [
         ],
         'reCaptcha' => [
             // reCaptcha key goes here
-            'key' => null,
+            'key' => '6LdwfD4UAAAAAFq1eOUKXCvLHqm32ZbCojulXVRn',
             // reCaptcha secret
-            'secret' => null,
+            'secret' => '6LdwfD4UAAAAAFBdmjICW0nJ762_AgllO24pEt4N',
             // use reCaptcha in registration
             'registration' => true,
             // use reCaptcha in login, valid values are false, true
