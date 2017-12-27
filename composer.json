@@ -17,7 +17,8 @@
         "league/oauth2-google": "@stable",
         "league/oauth2-linkedin": "@stable",
         "league/oauth1-client": "@stable",
-        "google/recaptcha": "@stable"
+        "google/recaptcha": "@stable",
+        "robthree/twofactorauth": "^1.5.2"
     },
     "require-dev": {
         "psy/psysh": "@stable",
