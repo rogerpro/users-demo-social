@@ -16,7 +16,8 @@
         "league/oauth2-instagram": "@stable",
         "league/oauth2-google": "@stable",
         "league/oauth2-linkedin": "@stable",
-        "league/oauth1-client": "@stable"
+        "league/oauth1-client": "@stable",
+        "google/recaptcha": "@stable"
     },
     "require-dev": {
         "psy/psysh": "@stable",
